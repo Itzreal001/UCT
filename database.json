@@ -1,0 +1,60 @@
+{
+  "student": {
+    "full_name": "Rebecca Theresa",
+    "preferred_name": "Rebecca",
+    "student_number": "THRRBC004",
+    "email": "Rebeccatheresa104@gmail.com",
+    "uct_email": "thrrbc004@myuct.ac.za",
+    "dob": "1995-09-15",
+    "nationality": "Dominican Republic",
+    "home_language": "Spanish / English",
+    "phone": "+1 626 824 7898"
+  },
+  "academic": {
+    "faculty": "Commerce",
+    "department": "School of Management Studies",
+    "program": "Bachelor of Business Administration & Tourism",
+    "year_of_study": 3,
+    "total_years": 4,
+    "gpa": 3.1,
+    "credits_completed": 192,
+    "standing": "Good Standing",
+    "courses": [
+      { "code": "BUS3014F", "name": "Strategic Management",            "credits": 24, "mark": 74 },
+      { "code": "TRM3006S", "name": "Tourism Destination Management",  "credits": 24, "mark": 69 },
+      { "code": "FIN3002F", "name": "Corporate Finance",               "credits": 20, "mark": 71 },
+      { "code": "MKT3008S", "name": "International Marketing",         "credits": 20, "mark": 78 },
+      { "code": "TRM3010F", "name": "Hospitality & Events Management", "credits": 16, "mark": 82 }
+    ]
+  },
+  "residence": {
+    "name": "Tugwell Hall",
+    "room": "T203",
+    "meal_plan": "Partial (10 meals/week)",
+    "fee_status": "Partially paid",
+    "role": "House Committee Treasurer"
+  },
+  "finance": {
+    "total_due": 90400,
+    "paid": 21050,
+    "outstanding": 69350,
+    "payment_plan": "Active – next payment due 30 April 2026",
+    "fees": [
+      { "type": "Tuition – Year 3 (2026)",          "amount": 52800, "status": "Unpaid",                        "due": "31 March 2026" },
+      { "type": "Residence & Meals",                 "amount": 34600, "status": "Partially paid (R20,000 paid)", "due": "31 March 2026" },
+      { "type": "SRC Levy",                          "amount": 200,   "status": "Unpaid",                        "due": "30 April 2026" },
+      { "type": "ICT & Library Services",            "amount": 750,   "status": "Paid",                          "due": null            },
+      { "type": "Sports & Recreation",               "amount": 300,   "status": "Paid",                          "due": null            },
+      { "type": "Student Health Plan (Years 3–4)",   "amount": 0,     "status": "Covered – included in tuition", "due": null            },
+      { "type": "Graduation Deposit (Year 4 prep)",  "amount": 1750,  "status": "Unpaid",                        "due": "15 June 2026"  }
+    ]
+  },
+  "notifications": [
+    "URGENT: Full tuition of R52,800 unpaid – account may be blocked after 15 April",
+    "Residence balance of R14,600 still outstanding",
+    "Pay graduation deposit (R1,750) before 15 June",
+    "Pay SRC levy (R200) before 30 April",
+    "Submit BUS3014F group project by 12 April",
+    "Book Year 4 academic advisor meeting before 25 April"
+  ]
+}
