@@ -12,7 +12,8 @@
     "preview": "vite preview --host",
     "check": "tsc --noEmit",
     "format": "prettier --write .",
-    "seed": "npx tsx scripts/seed-rebecca.ts"
+    "seed": "npx tsx scripts/seed-rebecca.ts",
+    "build:server": "esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
@@ -108,3 +109,4 @@
     }
   }
 }
+
